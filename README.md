@@ -45,6 +45,17 @@ The performance of the models is evaluated using confusion matrices and accuracy
 3. **Predict Class**: The trained model predicts whether the chilli powder is pure or adulterated and, if adulterated, the level of adulteration.
 4. **Display Results**: The prediction results are displayed on the image, and performance metrics are visualized.
 
-## Conclusion
+## Usage
+- Run the GaussianFilter.py script to apply a Gaussian filter to images of chilli powder. This script processes images in specified directories and saves the filtered images in an output subdirectory.
+- Run the ProcessWithReject.py script to classify the chilli powder samples and evaluate the models.
+  
+### Prerequisites
 
-This project demonstrates the application of machine learning in detecting food adulteration using image analysis. By leveraging Logistic Regression and color feature extraction, the project provides a practical solution for ensuring the quality and safety of chilli powder.
+- Python 3.x
+- Required Python libraries: `opencv-python`, `numpy`, `joblib`, `scikit-learn`, `pandas`, `matplotlib`, `seaborn`, `Pillow`
+
+Install the required libraries using pip:
+
+```bash
+pip install opencv-python numpy joblib scikit-learn pandas matplotlib seaborn Pillow
+
